@@ -156,7 +156,7 @@ while True:
         print(f'\n{lg}[i] Yangilanish tekshirilmoqda...')
         try:
             # https://raw.githubusercontent.com/Cryptonian007/Astra/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/Cryptonian007/Astra/main/version.txt')
+            version = requests.get('https://github.com/BadriddinOfficial/addmember/main/version.txt')
         except:
             print(f'{r} Siz internetga ulanmagansiz!')
             print(f'{r} Internetga ulaning va qayta urunib ko‘ring')
